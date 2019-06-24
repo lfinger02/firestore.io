@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body {
+    margin: 10;
+    font-family: 'Quicksand', sans-serif;
+}
+
+button.firestyle-btn{
+    
+    padding: 10px;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+    box-shadow: 1px 1px 7px #3236ad4d;
+    width: 100px;
+    outline: none;
+}
+
+button.firestyle-btn:focus
+{
+    box-shadow: 0 0 0 #141e304d;
+    animation: pulse 2s infinite;
+}
+
+button.firestyle-btn.default
+{
+    background: linear-gradient(207.49deg, #B26DE2 22.19%, #3236AD 85.92%), #6B77E0;
+}
+
+button.firestyle-btn.lost_memeory
+{
+    background: linear-gradient(207.49deg, #de6262 22.19%, #ffb88c 85.92%), #6B77E0;
+}
+
+button.firestyle-btn.socialive
+{
+    background: linear-gradient(207.49deg, #06beb6 22.19%, #48b1bf 85.92%), #6B77E0;
+}
+
+button.firestyle-btn.cherry
+{
+    background: linear-gradient(207.49deg, #f45c43 22.19%, #eb3349 85.92%), #6B77E0;
+}
+
+button.firestyle-btn.Lush
+{
+    background: linear-gradient(207.49deg, #a8e063 22.19%, #56ab2f 85.92%), #6B77E0;
+}
+
+button.firestyle-btn.green_beach
+{
+    background: linear-gradient(207.49deg, #02aab0 22.19%, #00cdac 85.92%), #6B77E0;
+}
+
+button.firestyle-btn.tonight
+{
+    background: linear-gradient(207.49deg, #b06ab3 22.19%, #4568dc 85.92%), #6B77E0;
+}
+
+button.firestyle-btn.bourbon
+{
+    background: linear-gradient(207.49deg, #f3a183 22.19%, #ec6f66 85.92%), #6B77E0;
+}
+
+button.firestyle-btn.Royal
+{
+    background: linear-gradient(207.49deg, #243b55 22.19%, #141e30 85.92%), #6B77E0;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 #6b77e06b;
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+  }
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 #6b77e06b;
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+        box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+  }
+
+
+button.firestyle-btn.default.round {
+    border-radius: 15px;
+}
+
+
+
+
